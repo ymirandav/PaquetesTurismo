@@ -1,0 +1,1 @@
+[{"Codigo":1,"Nombre":"Compiladores2","Lista_Docentes":["jose","maria"],"Lista_Cursos_Pre":["base de datos","ihc"],"Creditos":4,"Horas_Teoria":2,"Horas_Laboratorio":2},{"Codigo":2,"Nombre":"compiladores123","Lista_Docentes":["jose","maria"],"Lista_Cursos_Pre":["base de datos","ihc"],"Creditos":4,"Horas_Teoria":2,"Horas_Laboratorio":2}]
