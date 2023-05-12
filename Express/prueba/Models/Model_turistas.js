@@ -41,6 +41,6 @@ const TuristasSchema = new mongoose.Schema({
     },
 });
 
-const Turista = mongoose.model("Turista", TuristasSchema);
+const Turistas = mongoose.model("Turistas", TuristasSchema);
 
-module.exports = { Turista };
+module.exports = { Turistas };

@@ -2,11 +2,6 @@ const express = require("express");
 const mongoose = require("mongoose");
 const app = require("./app");
 
-// const {Paquetes} = require("./models/model_paquetes");
-// const {Usuarios} = require("./models/model_usuarios");
-// const {Reservas} = require("./models/model_reservas");
-// const {Turistas} = require("./models/model_turistas");
-
 app.use(express.json());
 
 const PaquetesBlueprint = require("./Blueprints/Blueprints_paquetes");

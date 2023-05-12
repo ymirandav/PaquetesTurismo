@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 
-const { Paquetes } = require("../models/model_paquetes");
+const { Paquetes } = require("../Models/Model_paquetes");
 
 router.get("/paquetes", async (req, res) => {
   const allPaquetes = await Paquetes.find();
