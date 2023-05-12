@@ -24,7 +24,7 @@ const TuristasSchema = new mongoose.Schema({
         required: true,
     },
     tur_dob: {
-        type: Date,
+        type: String,
         required: true,
     },
     tur_nacionalidad: {
@@ -41,6 +41,6 @@ const TuristasSchema = new mongoose.Schema({
     },
 });
 
-const Turistas = mongoose.model("Turistas", TuristasSchema);
+const Turista = mongoose.model("Turista", TuristasSchema);
 
-module.exports = { Turistas };
+module.exports = { Turista };

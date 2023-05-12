@@ -5,7 +5,7 @@ const PaquetesSchema = new mongoose.Schema({
         type: String,
         required: true,
     },
-    paq_descripcion: {
+    paq_descripcion:  {
         type: String,
         required: true,
     },
