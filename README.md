@@ -1,4 +1,4 @@
-[![Twitter Follow](https://img.shields.io/twitter/follow/maktub82.svg?style=social&label=Follow)](https://twitter.com/maktub82)
+[![Twitter Follow](https://img.shields.io/twitter/follow/maktub82.svg?style=social&label=Follow)](https://twitter.com/yoshiromiranda)
 
 ![Travis](https://img.shields.io/travis/USER/REPO.svg)
 
