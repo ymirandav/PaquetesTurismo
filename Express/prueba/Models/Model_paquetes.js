@@ -19,26 +19,26 @@ const PaquetesSchema = new mongoose.Schema({
         }
     },
     paq_incluye: {
-        type: String,
+        type: [String], // Cambio: Utilizar un Array de Strings
         required: true,
     },
     paq_no_incluye: {
-        type: String,
+        type: [String], // Cambio: Utilizar un Array de Strings
         required: true,
     },
     paq_restricciones: {
-        type: String,
+        type: [String], // Cambio: Utilizar un Array de Strings
         required: true,
     },
     paq_observaciones: {
-        type: String,
-        required: true,
-    },
-    paq_fotos: {
-        type: String,
+        type: [String], // Cambio: Utilizar un Array de Strings
         required: true,
     },
     paq_duracion: {
+        type: String,
+        required: true,
+    },
+    paq_personas: {
         type: Number,
         required: true,
         validate: {
