@@ -14,6 +14,7 @@ const TuristasBlueprint = require("./Blueprints/Blueprints_turista");
 const DisponibilidadBlueprint = require("./Blueprints/Blueprints_disponibilidad");
 const PlanesBlueprint = require("./Blueprints/Blueprints_plan");
 const ParticipanteBlueprint = require("./Blueprints/Blueprints_participante");
+const ComprobanteBlueprint = require("./Blueprints/Blueprints_comprobante");
 
 app.use(PaquetesBlueprint);
 app.use(UsuariosBlueprint);
@@ -22,6 +23,7 @@ app.use(TuristasBlueprint);
 app.use(DisponibilidadBlueprint);
 app.use(PlanesBlueprint);
 app.use(ParticipanteBlueprint);
+app.use(ComprobanteBlueprint);
 
 const start = async () => {
   try {
